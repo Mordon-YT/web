@@ -1,0 +1,24 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Source Code Pro', monospace;
+    color: #D3D3D3;
+
+}
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(10, 30, 54, 0.502);
+}
+#logo{
+    border-radius: 20px;
+    width: 6%; height: 100%;
+}
+.bgImages{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

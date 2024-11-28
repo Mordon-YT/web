@@ -1,0 +1,17 @@
+body{
+    background-color: rebeccapurple;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+button{
+    border-radius: 5px;
+    width: 20%;height: 60px;
+    margin: 25px;
+}

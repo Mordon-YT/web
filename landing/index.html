@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVENGERS</title>
+    <link rel="stylesheet" href="css/boilerPlate.css">
+</head>
+<body class="bgImages">
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects/index.html">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">OUR MISSION</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main id="app">
+        <section>
+            <h1>Welcome to <br> S.H.I.E.L.D</h1>
+            <p>Your journey into innovation starts here.</p>
+            <button type="button" @click="gateway" class="btn">
+                Explore</button>
+
+        </section>
+
+        <div id="explore">elegant words ordered precisely</div>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Avenger Zone</p>
+    </footer>
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        let app = Vue.createApp({
+            data: function() {
+                return {
+                    greeting: 'hi mom',
+                    isVisible: false,
+                }
+            },
+            methods: {
+                gateway() {
+                    document.getElementById("explore").innerHTML = '<img src=img/logo.png>'
+                },
+                toggleBox() {
+                    this.isVisible = !this.isVisible
+                }
+            }
+        })
+        app.mount('#app')
+    </script>
+</body>
+</html>

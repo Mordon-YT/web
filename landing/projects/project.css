@@ -1,0 +1,12 @@
+#cardHold{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, 400px);
+    width: 100%;
+}
+.cardimg{
+    height: 100%; width: 100%;
+}
+main{
+    width: 100%;
+}
