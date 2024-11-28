@@ -1,0 +1,28 @@
+@import url(main.css);
+:root{
+    --darker-var: #1C3A5F;
+}
+body{
+    background-image: url(../img/bg.jpg);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+header{
+    background-color: var(--darker-var);
+}
+.nav-links{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.nav-links a {
+    color: #66FFFF;
+    transition: color 0.3s ease;
+}
+footer{
+    background-color: var(--darker-var);
+}
